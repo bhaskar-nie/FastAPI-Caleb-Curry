@@ -1,0 +1,13 @@
+mkdir Omnicopy
+cd Omnicopy
+python -m venv .venv
+"c:\Users\91979\Downloads\FastAPI Tutorials\Caleb Curry\Omnicopy\.venv\Scripts\activate"
+clear
+echo ".venv" > .gitignore
+ls -a
+clear
+pip install --upgrade
+python.exe -m pip install --upgrade pip
+clear
+pip install "fastapi[standard]"
+doskey /history > commands_history.txt
