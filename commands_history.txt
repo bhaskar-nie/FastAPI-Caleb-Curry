@@ -10,4 +10,12 @@ pip install --upgrade
 python.exe -m pip install --upgrade pip
 clear
 pip install "fastapi[standard]"
+ls
 doskey /history > commands_history.txt
+clear
+pip freeze > requirements.txt
+git init
+git add .
+git commit -m "Added dependencies"
+touch main.py
+fastapi dev main.py
